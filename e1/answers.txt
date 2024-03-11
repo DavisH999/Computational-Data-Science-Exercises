@@ -1,0 +1,20 @@
+1.  Where you did the same calculations with NumPy and Pandas?
+        Doing computation ,such as addition and division, cross lines or columns.
+    Which did you find easier to work with?
+        Pandas for me because axis things become tricky when dealing with 3d arrays such as meaning of axis = 3 or even higher axis numbers.
+    Which code do you think is easier to read?
+        Pandas since I learned sql before, and part of pandas code is similar to sql, which makes me easier to understand the meaning of code.
+
+2.  What were the running times of the two pivot_months_* functions?
+        The Pandas function is about 26 times faster than the loop function.
+        timeit pivot_months_pandas(data)
+        3.62 ms ± 472 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
+        %timeit pivot_months_loops(data)
+        94.3 ms ± 3.94 ms per loop (mean ± std. dev. of 7 runs, 10 loops each)
+    How can you explain the difference?
+        Under pandas, functions such as groupby, aggregate, and pivot are optimized. So, functions under pandas process data faster than regular loops.
+        Also, loop function read the data line by line within loop, which increase the time complexity.
+
+
+
+

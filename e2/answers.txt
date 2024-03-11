@@ -1,0 +1,25 @@
+1. In the hint above, what is the result of the calculation data['timestamp']*fit.slope + fit.intercept?
+What is the type, and describe the values.
+
+2       13.185763
+7       13.181785
+8       13.179609
+24      13.167614
+30      13.163804
+          ...
+7363    13.507338
+7369    13.503856
+7381    13.498710
+7431    13.482540
+7433    13.480725
+Name: prediction_y_value, Length: 1669, dtype: float64
+The result is a Pandas Series. data type is float64
+They are y values on the linear regression.
+
+
+2. In the same hint, why does this produce a fit line on the graph?
+based on a range of x values, the linregress function can produce corresponding slope and intercept values. we can use y = m * x +b to compute y values.
+so we can get lots of (x,y) dots and connect those dots to the line.
+
+Why are the created_at values and timestamp values paired correctly to make points on the plot?
+One created_at value can be converted into a timestamp value. So, they have one-to-one relation.

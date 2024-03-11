@@ -1,0 +1,7 @@
+Based on your results for the last question, do you think daily temperatures are a good way to predict population density? Briefly explain why or why not.
+Daily temperatures are a not good way to predict population density.
+Based on the output plot, there is no obvious relation between them.
+Also, population density could be influenced by other factors which we have not considered, such as the economy and crime rate.
+
+Several of the (larger) data files were was kept compressed on disk throughout the analysis, so they needed to be decompressed ever time we ran our program: that seems inefficient. Why might this be faster than working with an uncompressed .json or .csv data?
+This is because the compressed data uses less memery. So, they take less time to load to cpu from memory.

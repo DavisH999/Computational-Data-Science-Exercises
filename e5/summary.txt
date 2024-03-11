@@ -1,0 +1,136 @@
+Plot descriptions:
+For data-1.csv, dots are around y = x
+For data-2.csv, dots are around y = x closely
+For data-3.csv, four cluster dots are around y = x evenly
+For data-4.csv, many dots form a SFU logo containing a dot rectangle and SFU three characters at bottom-right corner
+For data-5.csv, there are many dots forming four lines, x = 10, x = 30, x = 50, x = 70, x = 90, for middle 3 lines, they have obvious vertical gap
+
+========== For data-1.csv ==========
+Mean:
+x: 8.71769618641382
+y: 12.522874034702584
+Std:
+x: 12.15551723122202
+y: 6.63996400756785
+Min:
+x: -22.635877790008944
+y: -2.565087832693213
+Max:
+x: 35.23705548785129
+y: 27.38415261152477
+Range:
+x: [-22.635877790008944 - 35.23705548785129]
+y: [-2.565087832693213 - 27.38415261152477]
+Corr:
+x and y: 0.9503256954375483
+Description:
+For data-1.csv, it has two numeric columns x and y;
+The means for x and y are: (8.71769618641382, 12.522874034702584);
+The standard deviations for x and y are: (12.15551723122202, 6.63996400756785);
+The range for x is: [-22.635877790008944 - 35.23705548785129];
+The range for y is: [-2.565087832693213 - 27.38415261152477];
+The correlation between x and y is: 0.9503256954375483.
+
+========== For data-2.csv ==========
+Mean:
+x: -0.7107871267159572
+y: -0.7489869764497991
+Std:
+x: 11.481583587790734
+y: 6.257917998755848
+Min:
+x: -33.2711130771198
+y: -18.621803760419063
+Max:
+x: 27.6470003722073
+y: 14.14731499231748
+Range:
+x: [-33.2711130771198 - 27.6470003722073]
+y: [-18.621803760419063 - 14.14731499231748]
+Corr:
+x and y: 0.9551531665750373
+Description:
+For data-2.csv, it has two numeric columns x and y;
+The means for x and y are: (-0.7107871267159572, -0.7489869764497991);
+The standard deviations for x and y are: (11.481583587790734, 6.257917998755848);
+The range for x is: [-33.2711130771198 - 27.6470003722073];
+The range for y is: [-18.621803760419063 - 14.14731499231748];
+The correlation between x and y is: 0.9551531665750373.
+
+========== For data-3.csv ==========
+Mean:
+x: 0.9689074904200939
+y: 8.508535236641327
+Std:
+x: 2.235557861057969
+y: 1.1493008110024525
+Min:
+x: -2.4490643296742807
+y: 6.641734490391763
+Max:
+x: 4.51888491755363
+y: 10.551871022804317
+Range:
+x: [-2.4490643296742807 - 4.51888491755363]
+y: [6.641734490391763 - 10.551871022804317]
+Corr:
+x and y: 0.981937264676066
+Description:
+For data-3.csv, it has two numeric columns x and y;
+The means for x and y are: (0.9689074904200939, 8.508535236641327);
+The standard deviations for x and y are: (2.235557861057969, 1.1493008110024525);
+The range for x is: [-2.4490643296742807 - 4.51888491755363];
+The range for y is: [6.641734490391763 - 10.551871022804317];
+The correlation between x and y is: 0.981937264676066.
+
+========== For data-4.csv ==========
+Mean:
+x: 49.90508614830509
+y: 18.553836525423726
+Std:
+x: 28.50861051988193
+y: 16.545896442941682
+Min:
+x: 0.0
+y: 0.0
+Max:
+x: 87.3767
+y: 44.56504
+Range:
+x: [0.0 - 87.3767]
+y: [0.0 - 44.56504]
+Corr:
+x and y: -0.08119306735490815
+Description:
+For data-4.csv, it has two numeric columns x and y;
+The means for x and y are: (49.90508614830509, 18.553836525423726);
+The standard deviations for x and y are: (28.50861051988193, 16.545896442941682);
+The range for x is: [0.0 - 87.3767];
+The range for y is: [0.0 - 44.56504];
+The correlation between x and y is: -0.08119306735490815.
+
+========== For data-5.csv ==========
+Mean:
+x: 49.90999357843095
+y: 18.555524937729086
+Std:
+x: 28.500000943801354
+y: 16.540796301840782
+Min:
+x: 4.337892453674525
+y: 0.0554975075811517
+Max:
+x: 91.0528633396976
+y: 49.93419703633311
+Range:
+x: [4.337892453674525 - 91.0528633396976]
+y: [0.0554975075811517 - 49.93419703633311]
+Corr:
+x and y: -0.08823598983058888
+Description:
+For data-5.csv, it has two numeric columns x and y;
+The means for x and y are: (49.90999357843095, 18.555524937729086);
+The standard deviations for x and y are: (28.500000943801354, 16.540796301840782);
+The range for x is: [4.337892453674525 - 91.0528633396976];
+The range for y is: [0.0554975075811517 - 49.93419703633311];
+The correlation between x and y is: -0.08823598983058888.

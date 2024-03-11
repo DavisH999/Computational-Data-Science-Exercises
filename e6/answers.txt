@@ -1,0 +1,22 @@
+1. In the A/B test analysis, do you feel like we're p-hacking?
+yes. I think it is p-hacking since we should design before we start.
+How comfortable are you coming to a conclusion at p < 0.05?
+instructors only is more comfortable than all users.
+2. If we had done T-tests between each pair of sorting implementation results, how many tests would we have run?
+num of pairs: 21.
+If we looked for p < 0.05 in them, what would the probability be of having any false conclusions, just by chance?
+2 / 21 = 9.52 %
+That's the effective p-value of the many-T-tests analysis. [We could have done a Bonferroni correction when doing multiple T-tests, which is a fancy way of saying “for m tests, look for significance at α / m”].
+3. Give a ranking of the sorting implementations by speed, including which ones could not be distinguished. (i.e. which pairs could our experiment not conclude had different running times?)
+partition_sort    0.014090
+qs1               0.021941
+qs2               0.029479
+qs3               0.029998
+qs5               0.032405
+merge1            0.035134
+qs4               0.035297
+
+qs2            qs3   0.0005 0.9915 -0.0016  0.0027  False, so qs2 and q3 could be distinguished.
+merge1         qs4   0.0002    1.0  -0.002  0.0023  False, so merge1 and qs4 could be distinguished.
+
+

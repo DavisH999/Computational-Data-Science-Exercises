@@ -1,0 +1,7 @@
+1. Looking at your dog-rates.ipynb, do you think the residual are close-enough to being normal to look at the OLS p-value?
+I think it is close-enough normal since it looks like a normal.
+Can you reasonably conclude that the ratings are increasing? [Regardless of your answer here, continue as if you said "yes", so you can complete the question.]
+Yes, the scope is a positive value of 0.000000035.
+
+2. Do you think that the new “better” prediction is letting the Kalman filter do a better job capturing the true signal in the noise?
+Yes, we give better values of transition_matrices to predict next temp based on last temp.

@@ -1,0 +1,8 @@
+When smoothing the CPU temperature, do you think you got a better result with LOESS or Kalman smoothing? What differences did you notice?
+I think the LOESS is better. It is smoother than kalman smoothing. Based on my output, the LOESS is smooth but not pretty good on fitting the highest temperature data. Kalman is not that smooth but it has better fit on highest temperature data.
+
+In the CSV files, you might have also noticed other data about the observations: accelerometer (acceleration in x, y, z directions), gyroscope (rate of turning, pitch, roll, yaw). How could those have been used to make a better prediction about the “next” latitude and longitude?
+accelerometer and gyroscope can help us to get better prediction on acceleration and deceleration and the position of turing left and turning right.
+
+[Optional, because it takes more linear algebra than is prerequisite to this course] The transition matrix for the GPS Kalman filter had a sub-matrix that was [[5e-7, 34e-7], [-49e-7, 9e-7]] (which was found by regression to the true values). If you multiply that by 3e5, it looks a lot like a rotation matrix by 285°. The magnetic declination around Vancouver is about 15°. Explain that part of the transition matrix.
+[Optional, because it's interesting but not that interesting] In your calc_distance.py, temporarily set the transition_covariance values for the latitude and longitude to be very small (like 1/1000 of the corresponding observation_covariance values). This will give you a track in out.gpx that is basically "just the predictions, ignore the measurements". Have a look at the tracks on a viewer that includes a map (so you can see the track relative to roads/sidewalks). What can you infer about the predictions we're making?

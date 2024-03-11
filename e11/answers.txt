@@ -1,0 +1,22 @@
+1. In your reddit_relative.py, what intermediate results did you .cache()?
+    joined_comments.
+Briefly describe what would have happened if you hadn't used .cache() anywhere. (No need to time it, unless you really want to.)
+    The spark will compute the joined_comments twice.
+
+2. How did marking DataFrames for broadcast affect the running time of the “best author” program above?
+I run each version twice and compute the avg of real time.
+With broadcast: avg is 101s
+real    1m14.139s
+real    2m9.477s
+
+without broadcast: avg is 178s
+real    3m2.031s
+real    2m54.123s
+
+Therefore,
+The running time of small grouped data with broadcast
+is shorter than
+the running time of small grouped data without broadcast.
+
+
+
